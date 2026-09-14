@@ -8,9 +8,9 @@ The system combines asset inventory, vulnerability data, business context, threa
 
 ## Live Demo
 
-**Public URL:** `(https://assignementhivepro.streamlit.app/)`
+**Public URL:** https://assignementhivepro.streamlit.app/`
 
-**GitHub Repository:** `https://github.com/rizwan0110/assignement_hivepro`
+**GitHub Repository:** https://github.com/rizwan0110/assignement_hivepro
 
 ---
 
