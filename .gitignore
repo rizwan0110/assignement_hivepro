@@ -1,0 +1,12 @@
+.env
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Local/cache artifacts
+data/cisa_kev.csv
+data/nist_sp800_53_rev5.json
+
+# Optional local environments
+venv/
+.venv/
