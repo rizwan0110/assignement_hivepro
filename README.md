@@ -10,7 +10,7 @@ The system combines asset inventory, vulnerability data, business context, threa
 
 **Public URL:** `(https://assignementhivepro.streamlit.app/)`
 
-**GitHub Repository:** `<ADD_GITHUB_REPO_URL>`
+**GitHub Repository:** `https://github.com/rizwan0110/assignement_hivepro`
 
 ---
 
