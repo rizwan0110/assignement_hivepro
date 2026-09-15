@@ -193,8 +193,8 @@ assignment/
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_REPO_URL>
-cd <YOUR_REPO_FOLDER>
+git clone <[YOUR_REPO_URL](https://github.com/rizwan0110/assignement_hivepro)>
+cd assignement_hivepro
 ```
 
 ### 2. Create a virtual environment
