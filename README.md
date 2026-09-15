@@ -193,7 +193,7 @@ assignment/
 ### 1. Clone the repository
 
 ```bash
-git clone <[YOUR_REPO_URL](https://github.com/rizwan0110/assignement_hivepro)>
+git clone https://github.com/rizwan0110/assignement_hivepro
 cd assignement_hivepro
 ```
 
