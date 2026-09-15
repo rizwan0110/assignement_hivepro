@@ -93,4 +93,4 @@ st.write(
     """
 )
 
-st.caption("Synthetic assessment data. Not intended for operational security decisions.")
+
