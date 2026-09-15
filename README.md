@@ -31,59 +31,6 @@ The system:
 
 ---
 
-## Architecture
-
-```text
-Assignment data pack
-  assets.csv
-  vulnerabilities.csv
-  threat_intelligence.csv
-  business_services.csv
-  remediation_guidance.csv
-  synthetic_threat_report.md
-        |
-        v
-Structured loading + contextual ingestion
-        |
-        v
-Master vulnerability table
-        |
-        v
-CISA KEV enrichment
-        |
-        v
-Deterministic risk scoring
-        |
-        v
-Ranked Top 5 risks
-        |
-        +-------------------------------+
-        |                               |
-        v                               v
-Official NIST SP 800-53           Risk evidence
-Rev. 5 OSCAL catalog                  |
-        |                              |
-        v                              |
-Sentence-transformer embeddings       |
-        |                              |
-        v                              |
-FAISS vector index                    |
-        |                              |
-        +-------------> retrieval <----+
-                         |
-                         v
-                 Top NIST candidates
-                         |
-                         v
-                 Grounded LLM selection
-                         |
-                         v
-                 Validated JSON output
-                         |
-                         v
-                    Streamlit UI
-```
-
 ---
 
 ## Data pipeline
@@ -412,7 +359,3 @@ The LLM is useful for turning structured evidence and retrieved NIST prose into 
 - The provided TawasolPay data and threat actors are synthetic and should not be used for real operational security decisions.
 
 ---
-
-## Disclaimer
-
-This project was created for a hiring assessment using synthetic data. It is not intended to replace a production vulnerability-management or security-operations platform.
